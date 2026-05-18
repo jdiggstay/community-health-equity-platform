@@ -34,8 +34,11 @@ a {
     color: #2563eb;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.2s ease;
 }
 
 a:hover {
+    color: #1d4ed8;
     text-decoration: underline;
+    cursor: pointer;
 }
